@@ -1,0 +1,266 @@
+[{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a068"
+  },
+  "nume": "Max Verstappen",
+  "nationalitate": "Olanda",
+  "data_nasterii": {
+    "$date": "1997-09-30T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a055"
+  },
+  "numar_masina": 1
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a069"
+  },
+  "nume": "Sergio Perez",
+  "nationalitate": "Mexic",
+  "data_nasterii": {
+    "$date": "1990-01-26T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a055"
+  },
+  "numar_masina": 11
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a06a"
+  },
+  "nume": "Lewis Hamilton",
+  "nationalitate": "Marea Britanie",
+  "data_nasterii": {
+    "$date": "1985-01-07T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a056"
+  },
+  "numar_masina": 44
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a06b"
+  },
+  "nume": "George Russell",
+  "nationalitate": "Marea Britanie",
+  "data_nasterii": {
+    "$date": "1998-02-15T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a056"
+  },
+  "numar_masina": 63
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a06c"
+  },
+  "nume": "Charles Leclerc",
+  "nationalitate": "Monaco",
+  "data_nasterii": {
+    "$date": "1997-10-16T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a057"
+  },
+  "numar_masina": 16
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a06d"
+  },
+  "nume": "Carlos Sainz",
+  "nationalitate": "Spania",
+  "data_nasterii": {
+    "$date": "1994-09-01T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a057"
+  },
+  "numar_masina": 55
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a06e"
+  },
+  "nume": "Lando Norris",
+  "nationalitate": "Marea Britanie",
+  "data_nasterii": {
+    "$date": "1999-11-13T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a058"
+  },
+  "numar_masina": 4
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a06f"
+  },
+  "nume": "Oscar Piastri",
+  "nationalitate": "Australia",
+  "data_nasterii": {
+    "$date": "2001-04-06T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a058"
+  },
+  "numar_masina": 81
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a070"
+  },
+  "nume": "Fernando Alonso",
+  "nationalitate": "Spania",
+  "data_nasterii": {
+    "$date": "1981-07-29T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a059"
+  },
+  "numar_masina": 14
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a071"
+  },
+  "nume": "Lance Stroll",
+  "nationalitate": "Canada",
+  "data_nasterii": {
+    "$date": "1998-10-29T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a059"
+  },
+  "numar_masina": 18
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a072"
+  },
+  "nume": "Esteban Ocon",
+  "nationalitate": "Franța",
+  "data_nasterii": {
+    "$date": "1996-09-17T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05a"
+  },
+  "numar_masina": 31
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a073"
+  },
+  "nume": "Pierre Gasly",
+  "nationalitate": "Franța",
+  "data_nasterii": {
+    "$date": "1996-02-07T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05a"
+  },
+  "numar_masina": 10
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a074"
+  },
+  "nume": "Logan Sargeant",
+  "nationalitate": "SUA",
+  "data_nasterii": {
+    "$date": "2000-12-31T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05b"
+  },
+  "numar_masina": 2
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a075"
+  },
+  "nume": "Alex Albon",
+  "nationalitate": "Thailanda",
+  "data_nasterii": {
+    "$date": "1996-03-23T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05b"
+  },
+  "numar_masina": 23
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a076"
+  },
+  "nume": "Valtteri Bottas",
+  "nationalitate": "Finlanda",
+  "data_nasterii": {
+    "$date": "1989-08-28T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05c"
+  },
+  "numar_masina": 77
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a077"
+  },
+  "nume": "Kevin Magnussen",
+  "nationalitate": "Danemarca",
+  "data_nasterii": {
+    "$date": "1992-10-05T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05d"
+  },
+  "numar_masina": 20
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a078"
+  },
+  "nume": "Nico Hülkenberg",
+  "nationalitate": "Germania",
+  "data_nasterii": {
+    "$date": "1987-08-19T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05d"
+  },
+  "numar_masina": 27
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a079"
+  },
+  "nume": "Yuki Tsunoda",
+  "nationalitate": "Japonia",
+  "data_nasterii": {
+    "$date": "2000-05-11T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05e"
+  },
+  "numar_masina": 22
+},
+{
+  "_id": {
+    "$oid": "6856b0fcf6b6992792d9a07a"
+  },
+  "nume": "Daniil Kvyat",
+  "nationalitate": "Rusia",
+  "data_nasterii": {
+    "$date": "1994-04-26T00:00:00.000Z"
+  },
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05e"
+  },
+  "numar_masina": 26
+}]

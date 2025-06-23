@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0a7"
+  },
+  "nume": "Grand Prix Bahrain",
+  "data": "2024-03-02T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a091"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0a8"
+  },
+  "nume": "Grand Prix Arabia Saudită",
+  "data": "2024-03-09T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a092"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0a9"
+  },
+  "nume": "Grand Prix Australia",
+  "data": "2024-03-24T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a093"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0aa"
+  },
+  "nume": "Grand Prix Japonia",
+  "data": "2024-04-07T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a094"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0ab"
+  },
+  "nume": "Grand Prix China",
+  "data": "2024-04-21T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a095"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0ac"
+  },
+  "nume": "Grand Prix Miami",
+  "data": "2024-05-05T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a096"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0ad"
+  },
+  "nume": "Grand Prix Emilia-Romagna",
+  "data": "2024-05-19T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a097"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0ae"
+  },
+  "nume": "Grand Prix Monaco",
+  "data": "2024-05-26T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a098"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0af"
+  },
+  "nume": "Grand Prix Canada",
+  "data": "2024-06-09T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a099"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b0"
+  },
+  "nume": "Grand Prix Spania",
+  "data": "2024-06-23T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a09a"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b1"
+  },
+  "nume": "Grand Prix Austria",
+  "data": "2024-06-30T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a09b"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b2"
+  },
+  "nume": "Grand Prix Marea Britanie",
+  "data": "2024-07-07T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a09c"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b3"
+  },
+  "nume": "Grand Prix Ungaria",
+  "data": "2024-07-21T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a09d"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b4"
+  },
+  "nume": "Grand Prix Belgia",
+  "data": "2024-07-28T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a09e"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b5"
+  },
+  "nume": "Grand Prix Țările de Jos",
+  "data": "2024-08-25T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a09f"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b6"
+  },
+  "nume": "Grand Prix Italia",
+  "data": "2024-09-01T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a0a0"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b7"
+  },
+  "nume": "Grand Prix Azerbaidjan",
+  "data": "2024-09-15T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a0a1"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b8"
+  },
+  "nume": "Grand Prix Singapore",
+  "data": "2024-09-22T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a0a2"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0b9"
+  },
+  "nume": "Grand Prix SUA",
+  "data": "2024-10-20T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a0a3"
+},
+{
+  "_id": {
+    "$oid": "6856b25ef6b6992792d9a0ba"
+  },
+  "nume": "Grand Prix Abu Dhabi",
+  "data": "2024-12-08T00:00:00Z",
+  "circuit_id": "6856b19ef6b6992792d9a0a4"
+}]

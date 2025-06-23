@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a07f"
+  },
+  "model": "RB20",
+  "motor": "Honda RBPTH001",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a055"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a080"
+  },
+  "model": "W15",
+  "motor": "Mercedes-AMG F1 M15 E Performance",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a056"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a081"
+  },
+  "model": "SF-24",
+  "motor": "Ferrari 066/10",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a057"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a082"
+  },
+  "model": "MCL38",
+  "motor": "Mercedes-AMG F1 M15",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a058"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a083"
+  },
+  "model": "AMR24",
+  "motor": "Mercedes-AMG F1 M15",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a059"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a084"
+  },
+  "model": "A524",
+  "motor": "Renault E-Tech RE24",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05a"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a085"
+  },
+  "model": "FW46",
+  "motor": "Mercedes-AMG F1 M15",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05b"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a086"
+  },
+  "model": "C44",
+  "motor": "Ferrari 066/10",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05c"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a087"
+  },
+  "model": "VF-24",
+  "motor": "Ferrari 066/10",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05d"
+  }
+},
+{
+  "_id": {
+    "$oid": "6856b134f6b6992792d9a088"
+  },
+  "model": "VCARB 01",
+  "motor": "Honda RBPTH001",
+  "an_fabricatie": 2024,
+  "echipa_id": {
+    "$oid": "6856adf7f6b6992792d9a05e"
+  }
+}]

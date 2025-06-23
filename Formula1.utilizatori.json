@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6857c6f892846a571706e4ac"
+  },
+  "username": "mihai",
+  "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+},
+{
+  "_id": {
+    "$oid": "6858218db4fb4972a8cd4adc"
+  },
+  "username": "andrei",
+  "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+},
+{
+  "_id": {
+    "$oid": "685932e7f002c271dd701e96"
+  },
+  "username": "alex",
+  "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+}]

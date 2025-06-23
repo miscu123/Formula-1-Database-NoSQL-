@@ -1,0 +1,650 @@
+[{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce90"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0a7",
+  "pozitie_finala": 1,
+  "timp_final": "1:31:45.312",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce91"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0a7",
+  "pozitie_finala": 2,
+  "timp_final": "1:31:54.299",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce92"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a069",
+  "cursa_id": "6856b25ef6b6992792d9a0a7",
+  "pozitie_finala": 3,
+  "timp_final": "1:31:59.633",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce93"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0a8",
+  "pozitie_finala": 1,
+  "timp_final": "1:28:36.543",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce94"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0a8",
+  "pozitie_finala": 2,
+  "timp_final": "1:28:41.975",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce95"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0a8",
+  "pozitie_finala": 3,
+  "timp_final": "1:28:46.419",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce96"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0a9",
+  "pozitie_finala": 1,
+  "timp_final": "1:32:15.876",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce97"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0a9",
+  "pozitie_finala": 2,
+  "timp_final": "1:32:19.086",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce98"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0a9",
+  "pozitie_finala": 3,
+  "timp_final": "1:32:21.419",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce99"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0aa",
+  "pozitie_finala": 1,
+  "timp_final": "1:27:56.543",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce9a"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0aa",
+  "pozitie_finala": 2,
+  "timp_final": "1:28:09.308",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce9b"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06d",
+  "cursa_id": "6856b25ef6b6992792d9a0aa",
+  "pozitie_finala": 3,
+  "timp_final": "1:28:11.864",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce9c"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0ab",
+  "pozitie_finala": 1,
+  "timp_final": "1:36:45.876",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce9d"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06d",
+  "cursa_id": "6856b25ef6b6992792d9a0ab",
+  "pozitie_finala": 2,
+  "timp_final": "1:36:53.530",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce9e"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0ab",
+  "pozitie_finala": 3,
+  "timp_final": "1:36:55.863",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ce9f"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a069",
+  "cursa_id": "6856b25ef6b6992792d9a0ac",
+  "pozitie_finala": 1,
+  "timp_final": "1:29:56.432",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea0"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0ac",
+  "pozitie_finala": 2,
+  "timp_final": "1:29:57.975",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea1"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0ac",
+  "pozitie_finala": 3,
+  "timp_final": "1:30:05.197",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea2"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0ad",
+  "pozitie_finala": 1,
+  "timp_final": "1:33:21.543",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea3"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0ad",
+  "pozitie_finala": 2,
+  "timp_final": "1:33:23.652",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea4"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0ad",
+  "pozitie_finala": 3,
+  "timp_final": "1:33:26.975",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea5"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0ae",
+  "pozitie_finala": 1,
+  "timp_final": "1:45:32.109",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea6"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0ae",
+  "pozitie_finala": 2,
+  "timp_final": "1:45:36.430",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea7"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06d",
+  "cursa_id": "6856b25ef6b6992792d9a0ae",
+  "pozitie_finala": 3,
+  "timp_final": "1:45:39.763",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea8"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0af",
+  "pozitie_finala": 1,
+  "timp_final": "1:28:43.765",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cea9"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0af",
+  "pozitie_finala": 2,
+  "timp_final": "1:28:46.975",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ceaa"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a071",
+  "cursa_id": "6856b25ef6b6992792d9a0af",
+  "pozitie_finala": 3,
+  "timp_final": "1:28:52.530",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ceab"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0b0",
+  "pozitie_finala": 1,
+  "timp_final": "1:31:12.543",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489ceac"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0b0",
+  "pozitie_finala": 2,
+  "timp_final": "1:31:19.086",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "6857db89855db3e05489cead"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06d",
+  "cursa_id": "6856b25ef6b6992792d9a0b0",
+  "pozitie_finala": 3,
+  "timp_final": "1:31:22.419",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e27"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0b1",
+  "pozitie_finala": 1,
+  "timp_final": "1:21:45.321",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e28"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0b1",
+  "pozitie_finala": 2,
+  "timp_final": "1:21:47.197",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e29"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0b1",
+  "pozitie_finala": 3,
+  "timp_final": "1:21:48.531",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e2a"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0b1",
+  "pozitie_finala": 4,
+  "timp_final": "1:21:51.642",
+  "puncte": 12
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e2b"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0b1",
+  "pozitie_finala": 5,
+  "timp_final": "1:21:55.308",
+  "puncte": 10
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e2c"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0b2",
+  "pozitie_finala": 1,
+  "timp_final": "1:29:12.543",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e2d"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0b2",
+  "pozitie_finala": 2,
+  "timp_final": "1:29:14.753",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e2e"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0b2",
+  "pozitie_finala": 3,
+  "timp_final": "1:29:16.864",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e2f"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0b2",
+  "pozitie_finala": 4,
+  "timp_final": "1:29:20.530",
+  "puncte": 12
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e30"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0b2",
+  "pozitie_finala": 5,
+  "timp_final": "1:29:25.086",
+  "puncte": 10
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e31"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0b3",
+  "pozitie_finala": 1,
+  "timp_final": "1:38:24.876",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e32"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0b3",
+  "pozitie_finala": 2,
+  "timp_final": "1:38:30.197",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e33"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0b3",
+  "pozitie_finala": 3,
+  "timp_final": "1:38:33.863",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e34"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0b3",
+  "pozitie_finala": 4,
+  "timp_final": "1:38:37.419",
+  "puncte": 12
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e35"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0b3",
+  "pozitie_finala": 5,
+  "timp_final": "1:38:40.752",
+  "puncte": 10
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e36"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0b4",
+  "pozitie_finala": 1,
+  "timp_final": "1:12:35.210",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e37"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0b4",
+  "pozitie_finala": 2,
+  "timp_final": "1:12:39.197",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e38"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0b4",
+  "pozitie_finala": 3,
+  "timp_final": "1:12:41.753",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e39"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0b4",
+  "pozitie_finala": 4,
+  "timp_final": "1:12:45.086",
+  "puncte": 12
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e3a"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0b4",
+  "pozitie_finala": 5,
+  "timp_final": "1:12:48.420",
+  "puncte": 10
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e3b"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0b5",
+  "pozitie_finala": 1,
+  "timp_final": "1:33:42.987",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e3c"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0b5",
+  "pozitie_finala": 2,
+  "timp_final": "1:33:45.530",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e3d"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0b5",
+  "pozitie_finala": 3,
+  "timp_final": "1:33:48.863",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e3e"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0b5",
+  "pozitie_finala": 4,
+  "timp_final": "1:33:51.197",
+  "puncte": 12
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e3f"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0b5",
+  "pozitie_finala": 5,
+  "timp_final": "1:33:55.308",
+  "puncte": 10
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e40"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0b6",
+  "pozitie_finala": 1,
+  "timp_final": "1:18:56.321",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e41"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0b6",
+  "pozitie_finala": 2,
+  "timp_final": "1:18:58.308",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e42"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0b6",
+  "pozitie_finala": 3,
+  "timp_final": "1:19:00.864",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e43"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0b6",
+  "pozitie_finala": 4,
+  "timp_final": "1:19:04.197",
+  "puncte": 12
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e44"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0b6",
+  "pozitie_finala": 5,
+  "timp_final": "1:19:07.531",
+  "puncte": 10
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e45"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a068",
+  "cursa_id": "6856b25ef6b6992792d9a0ba",
+  "pozitie_finala": 1,
+  "timp_final": "1:27:35.642",
+  "puncte": 25
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e46"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06e",
+  "cursa_id": "6856b25ef6b6992792d9a0ba",
+  "pozitie_finala": 2,
+  "timp_final": "1:27:39.308",
+  "puncte": 18
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e47"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06a",
+  "cursa_id": "6856b25ef6b6992792d9a0ba",
+  "pozitie_finala": 3,
+  "timp_final": "1:27:42.864",
+  "puncte": 15
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e48"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06c",
+  "cursa_id": "6856b25ef6b6992792d9a0ba",
+  "pozitie_finala": 4,
+  "timp_final": "1:27:46.197",
+  "puncte": 12
+},
+{
+  "_id": {
+    "$oid": "68593bf387c165f699a25e49"
+  },
+  "pilot_id": "6856b0fcf6b6992792d9a06b",
+  "cursa_id": "6856b25ef6b6992792d9a0ba",
+  "pozitie_finala": 5,
+  "timp_final": "1:27:50.531",
+  "puncte": 10
+}]

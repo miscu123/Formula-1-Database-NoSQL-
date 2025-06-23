@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a091"
+  },
+  "nume": "Bahrain International Circuit",
+  "tara": "Bahrein",
+  "oras": "Sakhir",
+  "lungime_km": 5.412
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a092"
+  },
+  "nume": "Jeddah Street Circuit",
+  "tara": "Arabia Saudită",
+  "oras": "Jeddah",
+  "lungime_km": 6.174
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a093"
+  },
+  "nume": "Albert Park Circuit",
+  "tara": "Australia",
+  "oras": "Melbourne",
+  "lungime_km": 5.278
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a094"
+  },
+  "nume": "Suzuka Circuit",
+  "tara": "Japonia",
+  "oras": "Suzuka",
+  "lungime_km": 5.807
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a095"
+  },
+  "nume": "Shanghai International Circuit",
+  "tara": "China",
+  "oras": "Shanghai",
+  "lungime_km": 5.451
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a096"
+  },
+  "nume": "Miami International Autodrome",
+  "tara": "SUA",
+  "oras": "Miami",
+  "lungime_km": 5.412
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a097"
+  },
+  "nume": "Imola - Autodromo Enzo e Dino Ferrari",
+  "tara": "Italia",
+  "oras": "Imola",
+  "lungime_km": 4.909
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a098"
+  },
+  "nume": "Circuit de Monaco",
+  "tara": "Monaco",
+  "oras": "Monte Carlo",
+  "lungime_km": 3.337
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a099"
+  },
+  "nume": "Circuit Gilles Villeneuve",
+  "tara": "Canada",
+  "oras": "Montreal",
+  "lungime_km": 4.361
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a09a"
+  },
+  "nume": "Circuit de Barcelona-Catalunya",
+  "tara": "Spania",
+  "oras": "Barcelona",
+  "lungime_km": 4.675
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a09b"
+  },
+  "nume": "Red Bull Ring",
+  "tara": "Austria",
+  "oras": "Spielberg",
+  "lungime_km": 4.318
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a09c"
+  },
+  "nume": "Silverstone Circuit",
+  "tara": "Marea Britanie",
+  "oras": "Silverstone",
+  "lungime_km": 5.891
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a09d"
+  },
+  "nume": "Hungaroring",
+  "tara": "Ungaria",
+  "oras": "Budapesta",
+  "lungime_km": 4.381
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a09e"
+  },
+  "nume": "Spa-Francorchamps",
+  "tara": "Belgia",
+  "oras": "Stavelot",
+  "lungime_km": 7.004
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a09f"
+  },
+  "nume": "Circuit Zandvoort",
+  "tara": "Țările de Jos",
+  "oras": "Zandvoort",
+  "lungime_km": 4.259
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a0a0"
+  },
+  "nume": "Monza - Autodromo Nazionale",
+  "tara": "Italia",
+  "oras": "Monza",
+  "lungime_km": 5.793
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a0a1"
+  },
+  "nume": "Baku City Circuit",
+  "tara": "Azerbaidjan",
+  "oras": "Baku",
+  "lungime_km": 6.003
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a0a2"
+  },
+  "nume": "Marina Bay Street Circuit",
+  "tara": "Singapore",
+  "oras": "Singapore",
+  "lungime_km": 5.063
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a0a3"
+  },
+  "nume": "Circuit of the Americas",
+  "tara": "SUA",
+  "oras": "Austin",
+  "lungime_km": 5.513
+},
+{
+  "_id": {
+    "$oid": "6856b19ef6b6992792d9a0a4"
+  },
+  "nume": "Yas Marina Circuit",
+  "tara": "Emiratele Arabe Unite",
+  "oras": "Abu Dhabi",
+  "lungime_km": 5.281
+}]

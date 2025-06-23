@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a055"
+  },
+  "nume": "Red Bull Racing",
+  "tara": "Austria"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a056"
+  },
+  "nume": "Mercedes AMG",
+  "tara": "Germania"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a057"
+  },
+  "nume": "Ferrari",
+  "tara": "Italia"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a058"
+  },
+  "nume": "McLaren",
+  "tara": "Marea Britanie"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a059"
+  },
+  "nume": "Aston Martin",
+  "tara": "Marea Britanie"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a05a"
+  },
+  "nume": "Alpine",
+  "tara": "Franța"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a05b"
+  },
+  "nume": "Williams",
+  "tara": "Marea Britanie"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a05c"
+  },
+  "nume": "Alfa Romeo",
+  "tara": "Elveția"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a05d"
+  },
+  "nume": "Haas F1 Team",
+  "tara": "SUA"
+},
+{
+  "_id": {
+    "$oid": "6856adf7f6b6992792d9a05e"
+  },
+  "nume": "AlphaTauri",
+  "tara": "Italia"
+}]
