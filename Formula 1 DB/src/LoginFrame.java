@@ -1,5 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.*;
+import javax.imageio.ImageIO;
+import java.io.IOException;
+import java.util.Objects;
+
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
@@ -9,6 +14,7 @@ public class LoginFrame extends JFrame {
     private JPasswordField txtPass;
     private JButton btnLogin;
     private JButton btnRegister;
+    private Image backgroundImage;
 
     public LoginFrame() {
         super("Login");
@@ -22,42 +28,72 @@ public class LoginFrame extends JFrame {
         setUndecorated(true);
         setOpacity(0f); // fade-in
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(350, 250);
+        setSize(474, 315);
         setLocationRelativeTo(null);
+
+        // Load background image
+        backgroundImage = new ImageIcon(Objects.requireNonNull(getClass().getResource("/login.jpg"))).getImage();
+
+        JPanel backgroundPanel = new JPanel() {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
+
+                int panelWidth = getWidth();
+                int panelHeight = getHeight();
+
+                int imgWidth = backgroundImage.getWidth(this);
+                int imgHeight = backgroundImage.getHeight(this);
+
+                if (imgWidth > 0 && imgHeight > 0) {
+                    double scaleX = (double) panelWidth / imgWidth;
+                    double scaleY = (double) panelHeight / imgHeight;
+                    double scale = Math.min(scaleX, scaleY);
+
+                    int finalWidth = (int) (imgWidth * scale);
+                    int finalHeight = (int) (imgHeight * scale);
+
+                    int x = (panelWidth - finalWidth) / 2;
+                    int y = (panelHeight - finalHeight) / 2;
+
+                    g.drawImage(backgroundImage, x, y, finalWidth, finalHeight, this);
+                }
+            }
+        };
+        backgroundPanel.setLayout(new BoxLayout(backgroundPanel, BoxLayout.Y_AXIS));
+        backgroundPanel.setBorder(BorderFactory.createEmptyBorder(20, 40, 20, 40));
+        backgroundPanel.setOpaque(false);
 
         txtUser = new RoundedTextField(15);
         txtPass = new RoundedPasswordField(15);
+
         txtUser.setBackground(new Color(50, 50, 50));
-        txtUser.setForeground(Color.WHITE);
+        txtUser.setForeground(Color.RED);
         txtPass.setBackground(new Color(50, 50, 50));
-        txtPass.setForeground(Color.WHITE);
+        txtPass.setForeground(Color.RED);
+
         btnLogin = createStyledButton("Login");
         btnRegister = createStyledButton("Register");
-
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        panel.setBorder(BorderFactory.createEmptyBorder(20, 40, 20, 40));
-        panel.setBackground(Color.BLACK);
 
         JLabel title = new JLabel("Autentificare");
         title.setFont(new Font("SansSerif", Font.BOLD, 22));
         title.setForeground(Color.RED);
         title.setAlignmentX(Component.CENTER_ALIGNMENT);
         title.setBorder(BorderFactory.createEmptyBorder(0, 0, 20, 0));
-        panel.add(title);
 
-        panel.add(createLabeledField("Username:", txtUser));
-        panel.add(Box.createRigidArea(new Dimension(0, 10)));
-        panel.add(createLabeledField("Password:", txtPass));
-        panel.add(Box.createRigidArea(new Dimension(0, 20)));
+        backgroundPanel.add(title);
+        backgroundPanel.add(createLabeledField("Username:", txtUser));
+        backgroundPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        backgroundPanel.add(createLabeledField("Password:", txtPass));
+        backgroundPanel.add(Box.createRigidArea(new Dimension(0, 20)));
 
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 0));
         buttonPanel.setOpaque(false);
         buttonPanel.add(btnLogin);
         buttonPanel.add(btnRegister);
-        panel.add(buttonPanel);
+        backgroundPanel.add(buttonPanel);
 
-        add(panel);
+        add(backgroundPanel);
 
         btnLogin.addActionListener(e -> doLogin());
         btnRegister.addActionListener(e -> new RegisterFrame().setVisible(true));

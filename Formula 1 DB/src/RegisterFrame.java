@@ -5,11 +5,13 @@ import com.mongodb.client.MongoCollection;
 import org.bson.Document;
 import static com.mongodb.client.model.Filters.eq;
 import com.formdev.flatlaf.FlatDarkLaf;
+import java.util.Objects;
 
 public class RegisterFrame extends JFrame {
     private JTextField txtUser;
     private JPasswordField txtPass;
     private JButton btnRegister;
+    private Image backgroundImage;
 
     public RegisterFrame() {
         super("Înregistrare");
@@ -23,9 +25,12 @@ public class RegisterFrame extends JFrame {
         setUndecorated(true);
         setOpacity(0f); // pentru fade-in
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-        setSize(350, 200);
+        setSize(474, 315);
         setLocationRelativeTo(null);
         setResizable(false);
+
+        // încarcă imaginea de fundal
+        backgroundImage = new ImageIcon(Objects.requireNonNull(getClass().getResource("/login.jpg"))).getImage();
 
         initUI();
         initEvents();
@@ -36,42 +41,66 @@ public class RegisterFrame extends JFrame {
         txtUser = new RoundedTextField(15);
         txtPass = new RoundedPasswordField(15);
         txtUser.setBackground(new Color(50, 50, 50));
-        txtUser.setForeground(Color.WHITE);
+        txtUser.setForeground(Color.RED);
         txtPass.setBackground(new Color(50, 50, 50));
-        txtPass.setForeground(Color.WHITE);
+        txtPass.setForeground(Color.RED);
         btnRegister = createStyledButton("Creează cont");
 
-        JLabel lblUser = new JLabel("Utilizator:");
-        JLabel lblPass = new JLabel("Parolă:");
+        JLabel lblUser = new JLabel("Username:");
+        JLabel lblPass = new JLabel("Password:");
 
-        Font font = new Font("SansSerif", Font.PLAIN, 14);
+        Font font = new Font("SansSerif", Font.BOLD, 20);
         lblUser.setFont(font);
         lblPass.setFont(font);
-        lblUser.setForeground(Color.WHITE);
-        lblPass.setForeground(Color.WHITE);
+        lblUser.setForeground(Color.RED);
+        lblPass.setForeground(Color.RED);
 
         txtUser.setFont(font);
         txtPass.setFont(font);
 
-        JPanel formPanel = new JPanel(new GridLayout(2, 2, 10, 10));
+        JPanel formPanel = new JPanel(new GridLayout(2, 2, 5, 5));
         formPanel.setOpaque(false);
         formPanel.add(lblUser);
         formPanel.add(txtUser);
         formPanel.add(lblPass);
         formPanel.add(txtPass);
 
-        JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 10));
+        JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 5));
         buttonPanel.setOpaque(false);
         buttonPanel.add(btnRegister);
 
-        JPanel contentPanel = new JPanel();
-        contentPanel.setLayout(new BorderLayout(10, 10));
-        contentPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
-        contentPanel.setBackground(Color.BLACK);
-        contentPanel.add(formPanel, BorderLayout.CENTER);
-        contentPanel.add(buttonPanel, BorderLayout.SOUTH);
+        JPanel backgroundPanel = new JPanel() {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
 
-        add(contentPanel);
+                int panelWidth = getWidth();
+                int panelHeight = getHeight();
+
+                int imgWidth = backgroundImage.getWidth(this);
+                int imgHeight = backgroundImage.getHeight(this);
+
+                if (imgWidth > 0 && imgHeight > 0) {
+                    double scaleX = (double) panelWidth / imgWidth;
+                    double scaleY = (double) panelHeight / imgHeight;
+                    double scale = Math.min(scaleX, scaleY);
+
+                    int finalWidth = (int) (imgWidth * scale);
+                    int finalHeight = (int) (imgHeight * scale);
+
+                    int x = (panelWidth - finalWidth) / 2;
+                    int y = (panelHeight - finalHeight) / 2;
+
+                    g.drawImage(backgroundImage, x, y, finalWidth, finalHeight, this);
+                }
+            }
+        };
+        backgroundPanel.setLayout(new BorderLayout(10, 10));
+        backgroundPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
+        backgroundPanel.add(formPanel, BorderLayout.CENTER);
+        backgroundPanel.add(buttonPanel, BorderLayout.SOUTH);
+
+        add(backgroundPanel);
     }
 
     private JButton createStyledButton(String text) {

@@ -153,7 +153,6 @@ public class Formula1DAO {
         return millis;
     }
 
-    // Formatează milisecunde în string "HH:mm:ss.SSS"
     private String formatMillisToTime(long millis) {
         long hours = millis / 3600000;
         millis = millis % 3600000;
@@ -165,9 +164,6 @@ public class Formula1DAO {
         return String.format("%d:%02d:%02d.%03d", hours, minutes, seconds, millis);
     }
 
-    /**
-     * Afișează podiumul pentru o cursă specifică (primii 3 piloți)
-     */
     public List<Document> afiseazaPodiumCursa(String cursaId) {
         try {
             List<Bson> pipeline = Arrays.asList(
@@ -181,7 +177,6 @@ public class Formula1DAO {
                     Aggregates.project(new Document()
                             .append("pozitie_finala", 1)
                             .append("pilot_nume", "$pilot_info.nume")
-                            .append("pilot_prenume", "$pilot_info.prenume")
                             .append("puncte", 1)
                             .append("timp_final", 1)
                     )
@@ -197,9 +192,6 @@ public class Formula1DAO {
         }
     }
 
-    /**
-     * Transferă un pilot de la o echipă la alta
-     */
     public boolean transferaPilot(ObjectId pilotId, ObjectId novaEchipaId) {
         try {
             // Verifică dacă pilotul există

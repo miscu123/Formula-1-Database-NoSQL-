@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.model.Filters;
 import org.bson.Document;
@@ -214,7 +213,40 @@ public class PilotDialog extends JDialog {
                 return;
             }
 
+            MongoCollection<Document> col = db.getPilotiCollection();
+
+            // Verificare duplicat după nume (indiferent de echipă)
+            Document existing = col.find(Filters.eq("nume", nume)).first();
+
+            if (pilotId == null && existing != null) {
+                JOptionPane.showMessageDialog(this,
+                        "Un pilot cu acest nume există deja!\nNu poți adăuga duplicate.",
+                        "Eroare Validare", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
+            if (pilotId != null && existing != null && !existing.getObjectId("_id").toHexString().equals(pilotId)) {
+                JOptionPane.showMessageDialog(this,
+                        "Acest nume este deja folosit de un alt pilot!\nNu poți folosi același nume.",
+                        "Eroare Validare", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
             Date dataNasterii = new SimpleDateFormat("yyyy-MM-dd").parse(dataStr);
+
+            int anulNasterii = Integer.parseInt(new SimpleDateFormat("yyyy").format(dataNasterii));
+            if (anulNasterii > 2010) {
+                JOptionPane.showMessageDialog(this,
+                        "Pilotul trebuie să fie născut cel târziu în 2010 (minim 15 ani).",
+                        "Eroare Validare", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+            else if (anulNasterii < 1980) {
+                JOptionPane.showMessageDialog(this,
+                        "Pilotul trebuie să fie născut cel mai devreme în 1980 (maxim 45 de ani).",
+                        "Eroare Validare", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
 
             int numarMasina;
             try {
@@ -230,8 +262,6 @@ public class PilotDialog extends JDialog {
                     .append("numar_masina", numarMasina)
                     .append("echipa_id", echipa.id);
 
-            MongoCollection<Document> col = db.getPilotiCollection();
-
             if (pilotId == null) {
                 col.insertOne(doc);
                 pilotId = doc.getObjectId("_id").toHexString();
@@ -242,6 +272,7 @@ public class PilotDialog extends JDialog {
             refreshTotalPuncte();
             saved = true;
             this.dispose();
+
         } catch (Exception ex) {
             ex.printStackTrace();
             JOptionPane.showMessageDialog(this, "Eroare la salvare. Asigură-te că data este în format yyyy-MM-dd.");

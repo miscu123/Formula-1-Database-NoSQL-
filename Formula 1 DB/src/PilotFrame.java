@@ -33,8 +33,6 @@ public class PilotFrame extends JFrame {
         btnUpdate = new JButton("Editează");
         btnDelete = new JButton("Șterge");
 
-        // New buttons for stored functions
-        btnRefreshPuncte = new JButton("Actualizează Puncte");
         btnVerificaExistenta = new JButton("Verifică Existența");
         btnTransferMasiv = new JButton("Transfer în Masă");
         btnClasamentGeneral = new JButton("Clasament General");
@@ -48,10 +46,8 @@ public class PilotFrame extends JFrame {
         pnlTop.add(txtFilter);
         pnlTop.add(btnFilter);
 
-        // Panel mijloc: butoane pentru funcții stocate
         JPanel pnlMiddle = new JPanel();
         pnlMiddle.setBorder(BorderFactory.createTitledBorder("Funcții Avansate"));
-        pnlMiddle.add(btnRefreshPuncte);
         pnlMiddle.add(btnVerificaExistenta);
         pnlMiddle.add(btnTransferMasiv);
         pnlMiddle.add(btnClasamentGeneral);
@@ -83,8 +79,6 @@ public class PilotFrame extends JFrame {
         btnUpdate.addActionListener(e -> editSelected());
         btnDelete.addActionListener(e -> deleteSelected());
 
-        // Funcționalitate butoane noi pentru funcții stocate
-        btnRefreshPuncte.addActionListener(e -> refreshAllPuncte());
         btnVerificaExistenta.addActionListener(e -> verificaExistentaMultipla());
         btnTransferMasiv.addActionListener(e -> transferMasiv());
         btnClasamentGeneral.addActionListener(e -> afiseazaClasamentGeneral());
@@ -117,7 +111,7 @@ public class PilotFrame extends JFrame {
         }
 
         DefaultTableModel model = new DefaultTableModel(
-                new Object[]{"ID", "Nume Complet", "Naționalitate", "Data Nașterii", "Număr Mașină", "Echipă", "Puncte Totale"}, 0);
+                new Object[]{"ID", "Nume Complet", "Naționalitate", "Data Nașterii", "Număr Mașină", "Echipă"}, 0);
 
         for (Document doc : pilots) {
             String id = doc.getObjectId("_id").toHexString();
@@ -148,14 +142,6 @@ public class PilotFrame extends JFrame {
                 }
             }
 
-            // Calculate total points using DAO function
-            int totalPuncte = 0;
-            try {
-                totalPuncte = db.getTotalPunctePilot(doc.getObjectId("_id").toHexString());
-            } catch (Exception ex) {
-                System.err.println("Eroare la calcularea punctelor pentru pilotul " + nume + ": " + ex.getMessage());
-            }
-
             model.addRow(new Object[]{
                     id,
                     nume,
@@ -163,7 +149,6 @@ public class PilotFrame extends JFrame {
                     dataNasterii,
                     numarMasina,
                     echipaNume,
-                    totalPuncte
             });
         }
 
@@ -174,50 +159,6 @@ public class PilotFrame extends JFrame {
             tblPiloti.getColumnModel().getColumn(0).setMinWidth(0);
             tblPiloti.getColumnModel().getColumn(0).setMaxWidth(0);
             tblPiloti.getColumnModel().getColumn(0).setWidth(0);
-        }
-    }
-
-    private void refreshAllPuncte() {
-        try {
-            SwingUtilities.invokeLater(() -> {
-                // Show progress dialog
-                JProgressBar progressBar = new JProgressBar();
-                progressBar.setIndeterminate(true);
-                JDialog progressDialog = new JDialog(this, "Actualizare Puncte", true);
-                JPanel dialogPanel = new JPanel(new BorderLayout());
-                dialogPanel.add(new JLabel("Se actualizează punctele pentru toți piloții..."), BorderLayout.CENTER);
-                dialogPanel.add(progressBar, BorderLayout.SOUTH);
-                progressDialog.add(dialogPanel);
-                progressDialog.setSize(300, 100);
-                progressDialog.setLocationRelativeTo(this);
-
-                SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
-                    @Override
-                    protected Void doInBackground() throws Exception {
-                        // Small delay to show the progress dialog
-                        Thread.sleep(1000);
-                        return null;
-                    }
-
-                    @Override
-                    protected void done() {
-                        progressDialog.dispose();
-                        // Reload data to refresh points
-                        loadData();
-                        JOptionPane.showMessageDialog(PilotFrame.this,
-                                "Punctele au fost actualizate cu succes!",
-                                "Actualizare Completă",
-                                JOptionPane.INFORMATION_MESSAGE);
-                    }
-                };
-
-                worker.execute();
-                progressDialog.setVisible(true);
-            });
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Eroare la actualizarea punctelor: " + ex.getMessage(),
-                    "Eroare", JOptionPane.ERROR_MESSAGE);
         }
     }
 

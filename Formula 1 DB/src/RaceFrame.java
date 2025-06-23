@@ -4,6 +4,7 @@ import java.awt.*;
 import java.util.List;
 
 import org.bson.Document;
+import org.bson.types.ObjectId;
 
 public class RaceFrame extends JFrame {
     private JTable table;
@@ -110,12 +111,11 @@ public class RaceFrame extends JFrame {
                 for (Document d : podium) {
                     int pozitie = d.getInteger("pozitie_finala", -1);
                     String nume = d.getString("pilot_nume");
-                    String prenume = d.getString("pilot_prenume");
                     int puncte = d.getInteger("puncte", 0);
                     String timp = d.getString("timp_final");
 
-                    sb.append(String.format("%d. %s %s - Puncte: %d - Timp: %s\n",
-                            pozitie, nume, prenume, puncte, timp != null ? timp : "N/A"));
+                    sb.append(String.format("%d %s - Puncte: %d - Timp: %s\n",
+                            pozitie, nume, puncte, timp != null ? timp : "N/A"));
                 }
 
                 JOptionPane.showMessageDialog(this, sb.toString(), "Podium Cursa", JOptionPane.INFORMATION_MESSAGE);
@@ -145,11 +145,18 @@ public class RaceFrame extends JFrame {
             String id = race.getObjectId("_id").toHexString();
             String nume = race.getString("nume");
             String data = race.getString("data");
-            String circuitId = race.getString("circuit_id"); // acum e String
+            Object circuitIdObj = race.get("circuit_id");
+            String circuitId = null;
+            if (circuitIdObj instanceof ObjectId) {
+                circuitId = ((ObjectId) circuitIdObj).toHexString();
+            } else if (circuitIdObj instanceof String) {
+                circuitId = (String) circuitIdObj;
+            }
+
             String circuitName = "";
 
             if (circuitId != null) {
-                Document circuitDoc = db.getCircuitCollection().find(new org.bson.Document("_id", new org.bson.types.ObjectId(circuitId))).first();
+                Document circuitDoc = db.getCircuitCollection().find(new Document("_id", new ObjectId(circuitId))).first();
                 if (circuitDoc != null) {
                     circuitName = circuitDoc.getString("nume");
                 }
