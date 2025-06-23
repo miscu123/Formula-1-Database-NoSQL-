@@ -28,11 +28,11 @@ public class LoginFrame extends JFrame {
         setUndecorated(true);
         setOpacity(0f); // fade-in
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(474, 315);
+        setSize(551, 310);
         setLocationRelativeTo(null);
 
         // Load background image
-        backgroundImage = new ImageIcon(Objects.requireNonNull(getClass().getResource("/login.jpg"))).getImage();
+        backgroundImage = new ImageIcon(Objects.requireNonNull(getClass().getResource("/logo.jpg"))).getImage();
 
         JPanel backgroundPanel = new JPanel() {
             @Override

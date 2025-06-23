@@ -25,12 +25,12 @@ public class RegisterFrame extends JFrame {
         setUndecorated(true);
         setOpacity(0f); // pentru fade-in
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-        setSize(474, 315);
+        setSize(551, 310);
         setLocationRelativeTo(null);
         setResizable(false);
 
         // încarcă imaginea de fundal
-        backgroundImage = new ImageIcon(Objects.requireNonNull(getClass().getResource("/login.jpg"))).getImage();
+        backgroundImage = new ImageIcon(Objects.requireNonNull(getClass().getResource("/logo.jpg"))).getImage();
 
         initUI();
         initEvents();
@@ -41,9 +41,9 @@ public class RegisterFrame extends JFrame {
         txtUser = new RoundedTextField(15);
         txtPass = new RoundedPasswordField(15);
         txtUser.setBackground(new Color(50, 50, 50));
-        txtUser.setForeground(Color.RED);
+        txtUser.setForeground(Color.WHITE);
         txtPass.setBackground(new Color(50, 50, 50));
-        txtPass.setForeground(Color.RED);
+        txtPass.setForeground(Color.WHITE);
         btnRegister = createStyledButton("Creează cont");
 
         JLabel lblUser = new JLabel("Username:");
